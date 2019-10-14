@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+      "van-grid": "vant-weapp/grid",
+      "van-grid-item": "vant-weapp/grid-item"
+  },
+  "navigationBarBackgroundColor": "#0066FF",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "新乐榜单",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": false
+}

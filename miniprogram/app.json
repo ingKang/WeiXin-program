@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/comment/comment",
+    "pages/ticket/ticket",
+    "pages/music/music",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundColor": "#333333",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0066FF",
+    "navigationBarTitleText": "              最新电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0066FF",
+    "backgroundColor":"#FFFFFF",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "images/电影-black.png",
+        "selectedIconPath": "images/电影-blue.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "images/音乐-black.png",
+        "selectedIconPath": "images/音乐-blue.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/我的-black.png",
+        "selectedIconPath": "images/我的-blue.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

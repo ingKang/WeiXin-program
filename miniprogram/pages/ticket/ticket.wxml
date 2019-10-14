@@ -1,0 +1,31 @@
+<view class="head"  style='background: url({{canemaMovieInfo.poster}}) no-repeat top/cover'> </view>
+<view class="movie-info">
+ <image class="headimg" src="{{canemaMovieInfo.poster}}"></image>
+ <view class="movietext-info">
+  <view class="moviename">{{canemaMovieInfo.name}}</view>
+  <view class="movieversions">"{{canemaMovieInfo.versions}}"</view>
+  <view class="info">{{canemaMovieInfo.tags}} | {{canemaMovieInfo.country}} | {{canemaMovieInfo.duration}}分钟</view>
+  <view class="info">{{canemaMovieInfo.date}}上映</view>
+  <view class="info">{{canemaMovieInfo.slogan}}</view>
+ </view>
+ </view>
+<view class="mask"></view>
+<van-notice-bar left-icon="../../../images/消息.png" mode="closeable" backgroundColor="smokewhite" color="skyblue" text="  主要演员 ：{{canemaMovieInfo.actor}} "/>
+<view class="nav">
+<text class="city" bindtap="getCities">北京</text>
+<view class="search"><van-search value="{{ value }}" placeholder="搜索影院/地区" use-action-slot bind:search="onSearch">
+  <view slot="action" bind:tap="onSearch">搜索</view>
+</van-search></view>
+</view>
+<van-tabs active="0" swipeable bind:change="onChange">
+  <van-tab title="{{item}}" wx:for="{{date}}" wx:key="{{index}}" data-alldate="2019-{{item}}" >
+<!-- 影院列表 -->
+<view class="canemaslist" wx:for="{{canemasList}}" wx:key="{{index}}">
+<view class="canemasname">{{item.name}}</view>
+<view class="canemasarea">{{item.addr}}</view>
+<view class="recent" >最近场次：<text wx:for="{{item.recent}}" wx:key="{{index}}"> {{item}} |</text></view>
+<view class="pricearea"><text class="price">{{item.minPrice/100}}</text>元起</view>
+</view>
+  </van-tab>
+</van-tabs>
+

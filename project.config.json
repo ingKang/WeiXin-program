@@ -1,0 +1,72 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"nodeModules": true
+	},
+	"appid": "wx2f209ee4720933d4",
+	"projectname": "Wechat-movies-books-music",
+	"libVersion": "2.8.3",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"compileType": "miniprogram",
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/comment/comment",
+					"pathName": "pages/comment/comment",
+					"query": "movieid=26729867",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ticket/ticket",
+					"pathName": "pages/ticket/ticket",
+					"query": "canemasmovieid=1306211",
+					"scene": null
+				}
+			]
+		}
+	}
+}

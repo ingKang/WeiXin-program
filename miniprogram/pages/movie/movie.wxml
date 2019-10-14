@@ -1,0 +1,12 @@
+<view class="movie" wx:for="{{movieList}}" wx:key="{{index}}" data-canemasmovieid="{{canemasMovieId[index]}}">
+<image class="img" src="{{item.images.small}}"></image>
+<view class="movie-info">
+<view class="movie-title">{{item.title}}</view> 
+<view>类型：<text wx:for="{{item.genres}}" wx:key="{{index}}">{{item}} </text></view>
+<view>评分：<text class="score">{{item.rating.average}}</text> 分</view>
+<view>主演：<text wx:for="{{item.casts}}" wx:key="{{index}}">{{item.name}} </text></view>
+<view>上映：{{item.mainland_pubdate}}</view>
+<button bindtap="goComment" data-movieid="{{item.id}}" class="detail-button">详情评价</button>
+<button bindtap="goTicket" data-canemasmovieid="{{canemasMovieId[index]}}" class="ticket-button">立即购票</button>
+</view>
+</view>

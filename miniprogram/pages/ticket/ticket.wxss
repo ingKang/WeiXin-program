@@ -1,0 +1,112 @@
+.head{
+  height: 390rpx;
+  filter: blur(40rpx);
+  opacity: 0.6;
+}
+.movie-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400rpx;
+  padding: 20rpx;
+  color: rgb(214, 212, 212);
+  font-size:26rpx;
+}
+.moviename{
+  color: white;
+  font-size: 42rpx;
+  font-weight:600;
+  margin-top:14rpx
+}
+.headimg{
+  height: 360rpx;
+  width:240rpx
+}
+.movietext-info{
+  flex: 1;
+  margin-left: 50rpx
+}
+.movieversions{
+  color: rgb(235, 152, 0);
+  font-size: 28rpx;
+  margin: 4rpx 0 42rpx 6rpx
+}
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 396rpx;
+  background-color: #333;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 6rpx
+}
+.info{
+  margin-bottom: 6rpx
+}
+
+.nav{
+  display: flex;
+    background: white;
+}
+.search{
+  flex:1
+}
+.city{
+  position: relative;
+  font-size:36rpx;
+  letter-spacing: 4rpx;
+  text-indent: 6rpx;
+  margin-top:28rpx
+}
+.city::after{
+  content:'';
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border: 14rpx  solid  transparent;
+  border-top-color:black;
+  position: absolute;
+  top:50%;
+  transform: translateY(-75%)
+}
+
+.canemaslist{
+  position: relative;
+  background: white;
+  height: 220rpx;
+  margin-bottom: 8rpx
+}
+.canemasname{
+  font-size:34rpx;
+  font-weight: 600;
+  margin: 8rpx 10rpx
+}
+.canemasarea{
+  width: 540rpx; 
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size:28rpx;
+  color:rgb(221, 165, 24);
+   margin: 22rpx 0 20rpx 22rpx
+}
+.recent{
+  font-size:28rpx;
+  color: gray;
+  margin-left: 22rpx
+}
+.price{
+  color: rgba(255, 0, 0, 0.842);
+  font-size: 42rpx;
+  font-weight: 600;
+  
+}
+.pricearea{
+  font-size: 26rpx;
+  position: absolute;
+  right: 16rpx;
+  top:40rpx
+}

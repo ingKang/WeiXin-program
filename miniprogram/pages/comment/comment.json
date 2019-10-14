@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-field": "vant-weapp/field",
+      "van-rate": "vant-weapp/rate"
+  },
+    "navigationBarBackgroundColor": "#0066FF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "详情评价",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  
+}

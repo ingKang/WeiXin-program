@@ -1,0 +1,39 @@
+.movie{
+border: 1px solid gainsboro;
+height:350rpx;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+padding: 10rpx
+}
+.movie-info{
+flex:1;
+color: grey;
+margin-left: 8rpx
+}
+.movie-title{
+ font-size: 40rpx;
+ font-weight: 500;
+ color:black;
+}
+.img{
+  width:240rpx;
+  height:96%
+}
+.score{
+  color: orange;
+}
+.detail-button,.ticket-button{
+  display: inline-block;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 160rpx;
+  background:#0066FF;
+  color: rgb(250, 246, 246);
+  font-size: 26rpx;
+  margin:18rpx 36rpx 4rpx 8rpx
+}
+.ticket-button{
+  background: #FF0000;
+  color: rgb(255, 208, 0);
+}

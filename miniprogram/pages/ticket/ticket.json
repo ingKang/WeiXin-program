@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "van-area": "vant-weapp/area",
+    "van-search": "vant-weapp/search",
+    "van-notice-bar": "vant-weapp/notice-bar",
+    "van-tab": "vant-weapp/tab",
+    "van-tabs": "vant-weapp/tabs"
+  },
+    "navigationBarBackgroundColor": "#0066FF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "找影院",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+}
